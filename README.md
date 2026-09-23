@@ -154,7 +154,7 @@ spike pk sum1ton_O1.o
 ```
 
 **Output of the disassembled file**
-![O1](./riscv_isa_labs/day_1/lab1/images/O1.png)
+![O1](./riscv_isa_labs/day_1/lab1/images/O1.jpeg)
 
 Search for `/main` or `/printf` inside the disassembly view to jump straight to those subroutine addresses.
 Press `:q` to exit.
@@ -206,7 +206,7 @@ ___
 ___
 
 **Spike debug-mode output:**
-![spike_debug](./riscv_isa_labs/day_1/lab1/images/spike_debug.png)
+![spike_debug](./riscv_isa_labs/day_1/lab1/images/spike_debug.jpeg)
 
 #### Ofast mode
 Using the same [C program](#o1-mode) as above:
@@ -221,7 +221,7 @@ spike pk sum1ton_Ofast.o
 ```
 
 **Output of the disassembled file**
-![Ofast](./riscv_isa_labs/day_1/lab1/images/Ofast.png)
+![Ofast](./riscv_isa_labs/day_1/lab1/images/Ofast.jpeg)
 
 **Observation** — the same C code, compiled with `-Ofast`, results in noticeably fewer instructions than the `-O1` build.
 
@@ -300,8 +300,7 @@ riscv64-unknown-elf-gcc -Ofast -mabi=lp64 -march=rv64i -o unsignedHighest.o unsi
 spike  pk unsignedHighest.o 
 ```
 
-**Output of the execution**
-![unsigned](./riscv_isa_labs/day_1/lab2/images/unsigned_demo.png)
+
 
 #### Signed Numbers
 
