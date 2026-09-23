@@ -328,12 +328,7 @@ cd /home/kanish/RISCV-ISA/riscv_isa_labs/day_1/lab2
 riscv64-unknown-elf-gcc -Ofast -mabi=lp64 -march=rv64i -o signedHighest.o unsignedHighest.c 
 spike  pk signedHighest.o 
 ```
-**Output of the execution**
-![signed](./riscv_isa_labs/day_1/lab2/images/signed_demo.png)
 
-**Common format specifiers**
-
-![format_Spec](./riscv_isa_labs/images/format_spec.png)
 
 
 
@@ -422,7 +417,7 @@ spike pk custom1_to9.o
 ```
 
 **Outputs of the Lab**
-![spike_op](./riscv_isa_labs/day_2/lab1/images/spike_op_lab.png)
+
 
 ![dump_op](./riscv_isa_labs/day_2/lab1/images/dump_op_lab.png)
 
@@ -440,7 +435,6 @@ chmod 777 rv32im.sh
 
 **Output, Script(rv32im.sh) and firmare.hex**
 
-![ver_demo](./riscv_isa_labs/day_2/lab1/images/ver_demo.png)
 
 ![rv_32im](./riscv_isa_labs/day_2/lab1/images/c_to_hex.png)
 
